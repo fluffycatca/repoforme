@@ -1,0 +1,17 @@
+{
+  "name": "azure-sentiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "in4margaret",
+  "license": "ISC",
+  "dependencies": {
+    "azure-cognitiveservices-textanalytics": "^1.0.0",
+    "dotenv": "^5.0.1",
+    "ms-rest-azure": "^2.5.5",
+    "xlsx": "^0.12.12"
+  }
+}
