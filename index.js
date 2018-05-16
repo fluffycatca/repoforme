@@ -16,7 +16,7 @@ try{
 
 let client = new TextAnalyticsAPIClient(credentials, region);
 
-const data = xlsx.readFile('./sample/Satisfaction Survey.xlsx');
+const data = xlsx.readFile('./sample/SatisfactionSurvey.xlsx');
 // Array of objects {comments: 'some comment', 'Completion time': '4/11/18 ...', Email: 'some.email@email.com', Name: 'Some name', recoment: "10", 'Start time': '4/11/18'}
 const jsonData = xlsx.utils.sheet_to_json(data.Sheets[data.SheetNames[0]]);
 
