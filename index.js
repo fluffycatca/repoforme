@@ -6,6 +6,7 @@ const CognitiveServicesCredentials = require('ms-rest-azure').CognitiveServicesC
 // Creating the Cognitive Services credentials
 // This requires a key corresponding to the service being used (i.e. text-analytics, etc)
 const credentials = new CognitiveServicesCredentials(process.env.COGNITIVE_SERVICES_CREDENTIALS);
+// changed to other region 
 const region = process.env.COGNITIVE_SERVICES_REGION;
 const TextAnalyticsAPIClient = require('azure-cognitiveservices-textanalytics');
 
