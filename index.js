@@ -59,8 +59,8 @@ Promise.all([
 
     return Object.assign(row, { sentimentScore: score, sentiment: sentiment, keyPhrases: keyPhrases });
   });
-
+ // Changed output file 
   var wb = { SheetNames: ['Sheet1'], Sheets: { 'Sheet1': xlsx.utils.json_to_sheet(outputJsonData) } };
-  xlsx.writeFile(wb, './output/output.xlsx');
+  xlsx.writeFile(wb, './output/output2.xlsx');
 })
 
